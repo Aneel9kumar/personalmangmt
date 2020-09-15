@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="First Name :"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:id="@+id/tv_rec_fname"
+            android:layout_marginLeft="12dp"
+            android:hint="First Name"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Last Name :"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginLeft="12dp"
+            android:hint="Last Name"
+            android:id="@+id/tv_rec_lname"
+
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginLeft="18dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Age :"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginLeft="12dp"
+            android:hint="Age "
+            android:id="@+id/tv_rec_age"
+
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Gender :"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginLeft="12dp"
+            android:hint="gender"
+            android:id="@+id/tv_rec_gender"
+
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:paddingTop="10dp"
+            android:id="@+id/iv_rec_delete"
+
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/iv_rec_edit"
+
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Address :"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginLeft="12dp"
+            android:hint="Address"
+            android:id="@+id/tv_rec_address"
+
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="16dp">
+        </TextView>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_margin="10dp"
+        android:background="#6b6b6b">
+
+    </View>
+
+</LinearLayout>
